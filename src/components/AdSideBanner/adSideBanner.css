@@ -1,0 +1,10 @@
+.ad-side-banner {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+  width: 100%;
+  max-width: 200px;
+  /* margin: 2em 2.5em; */
+}
