@@ -2,4 +2,8 @@
   width: 100%;
   height: 150px;
   border: 1px solid #ddd;
+  background-color: rgba(0, 0, 244, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

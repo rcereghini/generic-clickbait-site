@@ -8,6 +8,13 @@ import ArticlePage from "./pages/ArticlePage/ArticlePage";
 import "./App.css";
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+
+    console.log("props ==>", props);
+
+    this.state = {};
+  }
   // componentDidMount() {
   //   const { setCurrentUser } = this.props;
 
@@ -38,6 +45,7 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" render={HomePage} />
           <Route exact path="/article" component={ArticlePage} />
+          <Route exact path="/:pizza" component={Header} />
           {/* <Route exact path='/shop' component={ShopPage} /> 
           <Route exact exact path='/signin' render={() => this.props.currentUser ? (<Redirect to='/' />) : (<SignInOnlyPage />)} /> 
           <Route exact exact path='/signup' render={() => this.props.currentUser ? (<Redirect to='/' />) : (<SignUpOnlyPage />)} />  */}{" "}

@@ -1,8 +1,12 @@
 import React from "react";
 import "./article.css";
+import book from "../../assets/book.jpg";
 
 const Article = () => (
   <div className="article">
+    <div className="image-wrap">
+      <img style={{ width: "100%" }} src={book}></img>
+    </div>
     <p>
       Freddie Wilson lived an ordinary life. He was born and raised in Michigan,
       where all seemed peaceful.

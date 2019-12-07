@@ -1,3 +1,8 @@
 .article > p {
   font-size: 1.7em;
 }
+
+.image-wrap {
+  padding-top: 3em;
+  padding-bottom: 1em;
+}
