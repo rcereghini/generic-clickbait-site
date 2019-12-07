@@ -10,6 +10,7 @@
   /* margin: 2em 2.5em; */
 }
 
+/* SET MEDIA BREAK TO 994+ VERIFY */
 @media only screen and (max-width: 860px) {
   .article-page {
     grid-template-columns: 1fr;
