@@ -1,10 +1,13 @@
 import React from "react";
 import ShareButton from "../ShareButton/ShareButton";
 import "./header.css";
+import logo from "../../assets/logo.png";
 
 const Header = props => (
   <header className="header">
-    <div>LOGO</div>
+    <div>
+      <img src={logo} style={{ height: "50px" }}></img>
+    </div>
     <div>
       <ShareButton />
     </div>

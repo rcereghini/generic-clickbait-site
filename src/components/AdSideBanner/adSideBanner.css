@@ -19,11 +19,31 @@
   }
 
   .ad-side-banner {
-    height: 300px;
-    width: 100vw;
+    height: 250px;
+    width: 100%;
+    min-width: 100%;
   }
 
   .sb-left {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .article-section {
+    margin-left: 0em;
+    margin-top: 0em;
+    padding: 1.5em;
+  }
+
+  .side-bar {
+    /* width: 100%; */
+    padding: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 1010px) {
+  .ad-side-banner {
     display: none;
   }
 }
