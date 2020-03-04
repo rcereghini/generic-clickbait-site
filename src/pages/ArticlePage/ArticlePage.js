@@ -7,6 +7,7 @@ import AdBanner from "../../components/AdBanner/AdBanner";
 import AdSideBanner from "../../components/AdSideBanner/AdSideBanner";
 import Article from "../../components/Article/Article";
 import NextPageButton from "../../components/NextPageButton/NextPageButton";
+import RecommendedPages from "../../components/RecommendedPages/RecommendedPages";
 
 const ArticlePage = () => (
   <div className="article-page">
@@ -21,6 +22,8 @@ const ArticlePage = () => (
     <aside className="side-bar sb-right">
       <AdSideBanner />
     </aside>
+    {/* <span></span>
+    <RecommendedPages /> */}
   </div>
 );
 
